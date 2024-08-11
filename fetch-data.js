@@ -1,4 +1,4 @@
-addEventListener("DOMContentLoaded", fetchUserData());
+document.addEventListener("DOMContentLoaded", fetchUserData());
 
 async function fetchUserData() {
   const apiUrl = "https://jsonplaceholder.typicode.com/users";
